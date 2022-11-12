@@ -1,0 +1,115 @@
+.card-group
+{
+    margin-top: 50px;
+    border: 5px solid rgb(0, 195, 255);
+    padding: 10px
+
+    }
+
+
+
+.imagem1
+{
+    transition: all 1s;
+    cursor: pointer;
+}
+.imagem1:hover
+{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+.imagem2
+{
+    transition: all 0,5s;
+    cursor: pointer;
+}
+.imagem2:hover
+{
+    -webkit-filter: blur(5px);
+    transform: blur(5px);
+}
+imagem3
+{
+    transition: all 0,5s;
+    cursor: pointer;
+}
+.imagem3:hover
+{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+imagem4
+{
+    transition: all 0,5s;
+    cursor: pointer;
+}
+.imagem4:hover
+{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(128, 21, 110, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(202, 49, 95, 0.5));
+}
+imagem5
+{
+    transition: all 0,5s;
+    border:30px solid transparent;
+}
+.imagem5:hover
+{
+    border: 10px solid #136497;
+    border-radius:50%;
+}
+imagem6
+{
+    transition: all 0,5s;
+    border:30px solid #eeeee;
+}
+.imagem6:hover
+{
+    border: 10px solid #97133f;
+    border-radius:50%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(128, 21, 110, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(202, 49, 95, 0.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
+<!-- Fim hover e webkit-->
+
+
+
+
+.box{
+    display: flex-start;
+    flex-direction: column:
+}
+.box div{
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    border: 5px dotted blue;
+    padding: 40px;
+    margin: 10px;
+    background-color: rgb(0, 195, 255);
+}
+
+
+.box3{
+    background-color: rgb(0, 102, 255);
+    margin: 10px;
+    width: 85%;
+    padding: 40px;
+
+    position: relative;
+    top: 50px;
+    left:200px;
+
+}
+.box4{
+    background-color: rgb(255, 0, 212);
+    margin: 10px;
+    width: 90%;
+    padding: 40px;
+
+    position:absolute
+    left:100px
+}
+
